@@ -46,6 +46,4 @@ public class Customer extends Person
         return (getAccount()).toString() + super.toString();
     }
 
-
-
 }

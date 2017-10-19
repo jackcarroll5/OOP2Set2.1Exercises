@@ -54,11 +54,7 @@ public class BankAccount implements transActable {
 
       amount = Integer.parseInt(JOptionPane.showInputDialog("How much money do you want to withdraw?:"));
       setBalance(balance - amount);
-
-
-
     }
-
 
     public String toString()
     {
